@@ -8,6 +8,7 @@ export const themes: TokenBuildInput[] = [
       `src/tokens/functional/color/scales.json5`,
       `src/tokens/functional/shadow/light.json5`,
       `src/tokens/functional/border/light.json5`,
+      `src/tokens/functional/color/presentational.json5`,
     ],
     include: [`src/tokens/base/color/light/light.json5`],
   },

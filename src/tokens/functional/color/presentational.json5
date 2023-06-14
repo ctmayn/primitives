@@ -1,22 +1,50 @@
 {
-  color: {
-    presentational: {
-      ui: {
-        blue: {
-          background: '#E5F0FB',
-          backgroundHover: '#DAE9F9',
-          backgroundPressed: '#C8DEF5',
-          text: '#005CB6',
-          border: '#4D99E4',
+  presentational: {
+    ui: {
+      blue: {
+        background: {
+          $value: '#E5F0FB',
+          $type: 'color',
         },
-        purple: {
-          background: '#F0E5FB',
-          backgroundHover: '#E9DAF9',
-          backgroundPressed: '#DEC8F5',
-          text: '#6200C3',
-          border: '#9B4DE4',
-        }
-      }
-    }
-  }
+        backgroundHover: {
+          $value: '#DAE9F9',
+          $type: 'color',
+        },
+        backgroundPressed: {
+          $value: '#C8DEF5',
+          $type: 'color',
+        },
+        text: {
+          $value: '#005CB6',
+          $type: 'color',
+        },
+        border: {
+          $value: '#4D99E4',
+          $type: 'color',
+        },
+      },
+      purple: {
+        background: {
+          $value: '#F0E5FB',
+          $type: 'color',
+        },
+        backgroundHover: {
+          $value: '#E9DAF9',
+          $type: 'color',
+        },
+        backgroundPressed: {
+          $value: '#DEC8F5',
+          $type: 'color',
+        },
+        text: {
+          $value: '#6200C3',
+          $type: 'color',
+        },
+        border: {
+          $value: '#9B4DE4',
+          $type: 'color',
+        },
+      },
+    },
+  },
 }
