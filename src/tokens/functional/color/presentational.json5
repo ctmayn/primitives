@@ -1,0 +1,22 @@
+{
+  color: {
+    presentational: {
+      ui: {
+        blue: {
+          background: '#E5F0FB',
+          backgroundHover: '#DAE9F9',
+          backgroundPressed: '#C8DEF5',
+          text: '#005CB6',
+          border: '#4D99E4',
+        },
+        purple: {
+          background: '#F0E5FB',
+          backgroundHover: '#E9DAF9',
+          backgroundPressed: '#DEC8F5',
+          text: '#6200C3',
+          border: '#9B4DE4',
+        }
+      }
+    }
+  }
+}
