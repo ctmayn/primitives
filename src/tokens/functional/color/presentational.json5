@@ -1,48 +1,328 @@
 {
   presentational: {
+    $type: 'color',
     ui: {
-      blue: {
+      coral: {
         background: {
-          $value: '#E5F0FB',
-          $type: 'color',
+          $value: '{presentational.coral.0}',
         },
         backgroundHover: {
-          $value: '#DAE9F9',
-          $type: 'color',
+          $value: '{presentational.coral.1}',
         },
         backgroundPressed: {
-          $value: '#C8DEF5',
-          $type: 'color',
+          $value: '{presentational.coral.2}',
         },
         text: {
-          $value: '#005CB6',
-          $type: 'color',
+          $value: '{presentational.coral.5}',
         },
         border: {
-          $value: '#4D99E4',
-          $type: 'color',
+          $value: '{presentational.coral.4}',
+        },
+      },
+      red: {
+        background: {
+          $value: '{presentational.red.0}',
+        },
+        backgroundHover: {
+          $value: '{presentational.red.1}',
+        },
+        backgroundPressed: {
+          $value: '{presentational.red.2}',
+        },
+        text: {
+          $value: '{presentational.red.5}',
+        },
+        border: {
+          $value: '{presentational.red.4}',
+        },
+      },
+      pink: {
+        background: {
+          $value: '{presentational.pink.0}',
+        },
+        backgroundHover: {
+          $value: '{presentational.pink.1}',
+        },
+        backgroundPressed: {
+          $value: '{presentational.pink.2}',
+        },
+        text: {
+          $value: '{presentational.pink.5}',
+        },
+        border: {
+          $value: '{presentational.pink.4}',
+        },
+      },
+      plum: {
+        background: {
+          $value: '{presentational.plum.0}',
+        },
+        backgroundHover: {
+          $value: '{presentational.plum.1}',
+        },
+        backgroundPressed: {
+          $value: '{presentational.plum.2}',
+        },
+        text: {
+          $value: '{presentational.plum.5}',
+        },
+        border: {
+          $value: '{presentational.plum.4}',
         },
       },
       purple: {
         background: {
-          $value: '#F0E5FB',
-          $type: 'color',
+          $value: '{presentational.purple.0}',
         },
         backgroundHover: {
-          $value: '#E9DAF9',
-          $type: 'color',
+          $value: '{presentational.purple.1}',
         },
         backgroundPressed: {
-          $value: '#DEC8F5',
-          $type: 'color',
+          $value: '{presentational.purple.2}',
         },
         text: {
-          $value: '#6200C3',
-          $type: 'color',
+          $value: '{presentational.purple.5}',
         },
         border: {
-          $value: '#9B4DE4',
-          $type: 'color',
+          $value: '{presentational.purple.4}',
+        },
+      },
+      indigo: {
+        background: {
+          $value: '{presentational.indigo.0}',
+        },
+        backgroundHover: {
+          $value: '{presentational.indigo.1}',
+        },
+        backgroundPressed: {
+          $value: '{presentational.indigo.2}',
+        },
+        text: {
+          $value: '{presentational.indigo.5}',
+        },
+        border: {
+          $value: '{presentational.indigo.4}',
+        },
+      },
+      blue: {
+        background: {
+          $value: '{presentational.blue.0}',
+        },
+        backgroundHover: {
+          $value: '{presentational.blue.1}',
+        },
+        backgroundPressed: {
+          $value: '{presentational.blue.2}',
+        },
+        text: {
+          $value: '{presentational.blue.5}',
+        },
+        border: {
+          $value: '{presentational.blue.4}',
+        },
+      },
+      cyan: {
+        background: {
+          $value: '{presentational.cyan.0}',
+        },
+        backgroundHover: {
+          $value: '{presentational.cyan.1}',
+        },
+        backgroundPressed: {
+          $value: '{presentational.cyan.2}',
+        },
+        text: {
+          $value: '{presentational.cyan.5}',
+        },
+        border: {
+          $value: '{presentational.cyan.4}',
+        },
+      },
+      teal: {
+        background: {
+          $value: '{presentational.teal.0}',
+        },
+        backgroundHover: {
+          $value: '{presentational.teal.1}',
+        },
+        backgroundPressed: {
+          $value: '{presentational.teal.2}',
+        },
+        text: {
+          $value: '{presentational.teal.5}',
+        },
+        border: {
+          $value: '{presentational.teal.4}',
+        },
+      },
+      pine: {
+        background: {
+          $value: '{presentational.pine.0}',
+        },
+        backgroundHover: {
+          $value: '{presentational.pine.1}',
+        },
+        backgroundPressed: {
+          $value: '{presentational.pine.2}',
+        },
+        text: {
+          $value: '{presentational.pine.5}',
+        },
+        border: {
+          $value: '{presentational.pine.4}',
+        },
+      },
+      green: {
+        background: {
+          $value: '{presentational.green.0}',
+        },
+        backgroundHover: {
+          $value: '{presentational.green.1}',
+        },
+        backgroundPressed: {
+          $value: '{presentational.green.2}',
+        },
+        text: {
+          $value: '{presentational.green.5}',
+        },
+        border: {
+          $value: '{presentational.green.4}',
+        },
+      },
+      lime: {
+        background: {
+          $value: '{presentational.lime.0}',
+        },
+        backgroundHover: {
+          $value: '{presentational.lime.1}',
+        },
+        backgroundPressed: {
+          $value: '{presentational.lime.2}',
+        },
+        text: {
+          $value: '{presentational.lime.5}',
+        },
+        border: {
+          $value: '{presentational.lime.4}',
+        },
+      },
+      olive: {
+        background: {
+          $value: '{presentational.olive.0}',
+        },
+        backgroundHover: {
+          $value: '{presentational.olive.1}',
+        },
+        backgroundPressed: {
+          $value: '{presentational.olive.2}',
+        },
+        text: {
+          $value: '{presentational.olive.5}',
+        },
+        border: {
+          $value: '{presentational.olive.4}',
+        },
+      },
+      lemon: {
+        background: {
+          $value: '{presentational.lemon.0}',
+        },
+        backgroundHover: {
+          $value: '{presentational.lemon.1}',
+        },
+        backgroundPressed: {
+          $value: '{presentational.lemon.2}',
+        },
+        text: {
+          $value: '{presentational.lemon.5}',
+        },
+        border: {
+          $value: '{presentational.lemon.4}',
+        },
+      },
+      yellow: {
+        background: {
+          $value: '{presentational.yellow.0}',
+        },
+        backgroundHover: {
+          $value: '{presentational.yellow.1}',
+        },
+        backgroundPressed: {
+          $value: '{presentational.yellow.2}',
+        },
+        text: {
+          $value: '{presentational.yellow.5}',
+        },
+        border: {
+          $value: '{presentational.yellow.4}',
+        },
+      },
+      orange: {
+        background: {
+          $value: '{presentational.orange.0}',
+        },
+        backgroundHover: {
+          $value: '{presentational.orange.1}',
+        },
+        backgroundPressed: {
+          $value: '{presentational.orange.2}',
+        },
+        text: {
+          $value: '{presentational.orange.5}',
+        },
+        border: {
+          $value: '{presentational.orange.4}',
+        },
+      },
+      brown: {
+        background: {
+          $value: '{presentational.brown.0}',
+        },
+        backgroundHover: {
+          $value: '{presentational.brown.1}',
+        },
+        backgroundPressed: {
+          $value: '{presentational.brown.2}',
+        },
+        text: {
+          $value: '{presentational.brown.5}',
+        },
+        border: {
+          $value: '{presentational.brown.4}',
+        },
+      },
+      aubern: {
+        background: {
+          $value: '{presentational.aubern.0}',
+        },
+        backgroundHover: {
+          $value: '{presentational.aubern.1}',
+        },
+        backgroundPressed: {
+          $value: '{presentational.aubern.2}',
+        },
+        text: {
+          $value: '{presentational.aubern.5}',
+        },
+        border: {
+          $value: '{presentational.aubern.4}',
+        },
+      },
+      gray: {
+        background: {
+          $value: '{presentational.gray.0}',
+        },
+        backgroundHover: {
+          $value: '{presentational.gray.1}',
+        },
+        backgroundPressed: {
+          $value: '{presentational.gray.2}',
+        },
+        text: {
+          $value: '{presentational.gray.5}',
+        },
+        border: {
+          $value: '{presentational.gray.4}',
         },
       },
     },
