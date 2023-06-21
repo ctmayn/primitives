@@ -4,325 +4,722 @@
     ui: {
       coral: {
         background: {
-          $value: '{presentational.coral.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.coral.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.coral.2}',
+          muted: {
+            $value: '{presentational.coral.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.coral.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.coral.2}',
+          },
+          solid: {
+            $value: '{presentational.coral.6}',
+          },
+          solidHover: {
+            $value: '{presentational.coral.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.coral.8}',
+          },
         },
         text: {
-          $value: '{presentational.coral.5}',
+          $value: '{presentational.coral.9}',
         },
         border: {
-          $value: '{presentational.coral.4}',
+          default: {
+            $value: '{presentational.coral.4}',
+          },
+          muted: {
+            $value: '{presentational.coral.3}',
+          },
+          hover: {
+            $value: '{presentational.coral.5}',
+          },
         },
       },
       red: {
         background: {
-          $value: '{presentational.red.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.red.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.red.2}',
+          muted: {
+            $value: '{presentational.red.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.red.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.red.2}',
+          },
+          solid: {
+            $value: '{presentational.red.6}',
+          },
+          solidHover: {
+            $value: '{presentational.red.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.red.8}',
+          },
         },
         text: {
-          $value: '{presentational.red.5}',
+          $value: '{presentational.red.9}',
         },
         border: {
-          $value: '{presentational.red.4}',
+          default: {
+            $value: '{presentational.red.4}',
+          },
+          muted: {
+            $value: '{presentational.red.3}',
+          },
+          hover: {
+            $value: '{presentational.red.5}',
+          },
         },
       },
       pink: {
         background: {
-          $value: '{presentational.pink.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.pink.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.pink.2}',
+          muted: {
+            $value: '{presentational.pink.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.pink.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.pink.2}',
+          },
+          solid: {
+            $value: '{presentational.pink.6}',
+          },
+          solidHover: {
+            $value: '{presentational.pink.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.pink.8}',
+          },
         },
         text: {
-          $value: '{presentational.pink.5}',
+          $value: '{presentational.pink.9}',
         },
         border: {
-          $value: '{presentational.pink.4}',
+          default: {
+            $value: '{presentational.pink.4}',
+          },
+          muted: {
+            $value: '{presentational.pink.3}',
+          },
+          hover: {
+            $value: '{presentational.pink.5}',
+          },
         },
       },
       plum: {
         background: {
-          $value: '{presentational.plum.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.plum.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.plum.2}',
+          muted: {
+            $value: '{presentational.plum.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.plum.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.plum.2}',
+          },
+          solid: {
+            $value: '{presentational.plum.6}',
+          },
+          solidHover: {
+            $value: '{presentational.plum.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.plum.8}',
+          },
         },
         text: {
-          $value: '{presentational.plum.5}',
+          $value: '{presentational.plum.9}',
         },
         border: {
-          $value: '{presentational.plum.4}',
+          default: {
+            $value: '{presentational.plum.4}',
+          },
+          muted: {
+            $value: '{presentational.plum.3}',
+          },
+          hover: {
+            $value: '{presentational.plum.5}',
+          },
         },
       },
       purple: {
         background: {
-          $value: '{presentational.purple.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.purple.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.purple.2}',
+          muted: {
+            $value: '{presentational.purple.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.purple.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.purple.2}',
+          },
+          solid: {
+            $value: '{presentational.purple.6}',
+          },
+          solidHover: {
+            $value: '{presentational.purple.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.purple.8}',
+          },
         },
         text: {
-          $value: '{presentational.purple.5}',
+          $value: '{presentational.purple.9}',
         },
         border: {
-          $value: '{presentational.purple.4}',
+          default: {
+            $value: '{presentational.purple.4}',
+          },
+          muted: {
+            $value: '{presentational.purple.3}',
+          },
+          hover: {
+            $value: '{presentational.purple.5}',
+          },
         },
       },
       indigo: {
         background: {
-          $value: '{presentational.indigo.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.indigo.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.indigo.2}',
+          muted: {
+            $value: '{presentational.indigo.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.indigo.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.indigo.2}',
+          },
+          solid: {
+            $value: '{presentational.indigo.6}',
+          },
+          solidHover: {
+            $value: '{presentational.indigo.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.indigo.8}',
+          },
         },
         text: {
-          $value: '{presentational.indigo.5}',
+          $value: '{presentational.indigo.9}',
         },
         border: {
-          $value: '{presentational.indigo.4}',
+          default: {
+            $value: '{presentational.indigo.4}',
+          },
+          muted: {
+            $value: '{presentational.indigo.3}',
+          },
+          hover: {
+            $value: '{presentational.indigo.5}',
+          },
         },
       },
       blue: {
         background: {
-          $value: '{presentational.blue.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.blue.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.blue.2}',
+          muted: {
+            $value: '{presentational.blue.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.blue.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.blue.2}',
+          },
+          solid: {
+            $value: '{presentational.blue.6}',
+          },
+          solidHover: {
+            $value: '{presentational.blue.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.blue.8}',
+          },
         },
         text: {
-          $value: '{presentational.blue.5}',
+          $value: '{presentational.blue.9}',
         },
         border: {
-          $value: '{presentational.blue.4}',
+          default: {
+            $value: '{presentational.blue.4}',
+          },
+          muted: {
+            $value: '{presentational.blue.3}',
+          },
+          hover: {
+            $value: '{presentational.blue.5}',
+          },
         },
       },
       cyan: {
         background: {
-          $value: '{presentational.cyan.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.cyan.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.cyan.2}',
+          muted: {
+            $value: '{presentational.cyan.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.cyan.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.cyan.2}',
+          },
+          solid: {
+            $value: '{presentational.cyan.6}',
+          },
+          solidHover: {
+            $value: '{presentational.cyan.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.cyan.8}',
+          },
         },
         text: {
-          $value: '{presentational.cyan.5}',
+          $value: '{presentational.cyan.9}',
         },
         border: {
-          $value: '{presentational.cyan.4}',
+          default: {
+            $value: '{presentational.cyan.4}',
+          },
+          muted: {
+            $value: '{presentational.cyan.3}',
+          },
+          hover: {
+            $value: '{presentational.cyan.5}',
+          },
         },
       },
       teal: {
         background: {
-          $value: '{presentational.teal.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.teal.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.teal.2}',
+          muted: {
+            $value: '{presentational.teal.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.teal.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.teal.2}',
+          },
+          solid: {
+            $value: '{presentational.teal.6}',
+          },
+          solidHover: {
+            $value: '{presentational.teal.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.teal.8}',
+          },
         },
         text: {
-          $value: '{presentational.teal.5}',
+          $value: '{presentational.teal.9}',
         },
         border: {
-          $value: '{presentational.teal.4}',
+          default: {
+            $value: '{presentational.teal.4}',
+          },
+          muted: {
+            $value: '{presentational.teal.3}',
+          },
+          hover: {
+            $value: '{presentational.teal.5}',
+          },
         },
       },
       pine: {
         background: {
-          $value: '{presentational.pine.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.pine.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.pine.2}',
+          muted: {
+            $value: '{presentational.pine.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.pine.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.pine.2}',
+          },
+          solid: {
+            $value: '{presentational.pine.6}',
+          },
+          solidHover: {
+            $value: '{presentational.pine.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.pine.8}',
+          },
         },
         text: {
-          $value: '{presentational.pine.5}',
+          $value: '{presentational.pine.9}',
         },
         border: {
-          $value: '{presentational.pine.4}',
+          default: {
+            $value: '{presentational.pine.4}',
+          },
+          muted: {
+            $value: '{presentational.pine.3}',
+          },
+          hover: {
+            $value: '{presentational.pine.5}',
+          },
         },
       },
       green: {
         background: {
-          $value: '{presentational.green.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.green.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.green.2}',
+          muted: {
+            $value: '{presentational.green.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.green.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.green.2}',
+          },
+          solid: {
+            $value: '{presentational.green.6}',
+          },
+          solidHover: {
+            $value: '{presentational.green.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.green.8}',
+          },
         },
         text: {
-          $value: '{presentational.green.5}',
+          $value: '{presentational.green.9}',
         },
         border: {
-          $value: '{presentational.green.4}',
+          default: {
+            $value: '{presentational.green.4}',
+          },
+          muted: {
+            $value: '{presentational.green.3}',
+          },
+          hover: {
+            $value: '{presentational.green.5}',
+          },
         },
       },
       lime: {
         background: {
-          $value: '{presentational.lime.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.lime.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.lime.2}',
+          muted: {
+            $value: '{presentational.lime.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.lime.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.lime.2}',
+          },
+          solid: {
+            $value: '{presentational.lime.6}',
+          },
+          solidHover: {
+            $value: '{presentational.lime.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.lime.8}',
+          },
         },
         text: {
-          $value: '{presentational.lime.5}',
+          $value: '{presentational.lime.9}',
         },
         border: {
-          $value: '{presentational.lime.4}',
+          default: {
+            $value: '{presentational.lime.4}',
+          },
+          muted: {
+            $value: '{presentational.lime.3}',
+          },
+          hover: {
+            $value: '{presentational.lime.5}',
+          },
         },
       },
       olive: {
         background: {
-          $value: '{presentational.olive.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.olive.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.olive.2}',
+          muted: {
+            $value: '{presentational.olive.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.olive.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.olive.2}',
+          },
+          solid: {
+            $value: '{presentational.olive.6}',
+          },
+          solidHover: {
+            $value: '{presentational.olive.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.olive.8}',
+          },
         },
         text: {
-          $value: '{presentational.olive.5}',
+          $value: '{presentational.olive.9}',
         },
         border: {
-          $value: '{presentational.olive.4}',
+          default: {
+            $value: '{presentational.olive.4}',
+          },
+          muted: {
+            $value: '{presentational.olive.3}',
+          },
+          hover: {
+            $value: '{presentational.olive.5}',
+          },
         },
       },
       lemon: {
         background: {
-          $value: '{presentational.lemon.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.lemon.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.lemon.2}',
+          muted: {
+            $value: '{presentational.lemon.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.lemon.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.lemon.2}',
+          },
+          solid: {
+            $value: '{presentational.lemon.6}',
+          },
+          solidHover: {
+            $value: '{presentational.lemon.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.lemon.8}',
+          },
         },
         text: {
-          $value: '{presentational.lemon.5}',
+          $value: '{presentational.lemon.9}',
         },
         border: {
-          $value: '{presentational.lemon.4}',
+          default: {
+            $value: '{presentational.lemon.4}',
+          },
+          muted: {
+            $value: '{presentational.lemon.3}',
+          },
+          hover: {
+            $value: '{presentational.lemon.5}',
+          },
         },
       },
       yellow: {
         background: {
-          $value: '{presentational.yellow.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.yellow.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.yellow.2}',
+          muted: {
+            $value: '{presentational.yellow.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.yellow.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.yellow.2}',
+          },
+          solid: {
+            $value: '{presentational.yellow.6}',
+          },
+          solidHover: {
+            $value: '{presentational.yellow.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.yellow.8}',
+          },
         },
         text: {
-          $value: '{presentational.yellow.5}',
+          $value: '{presentational.yellow.9}',
         },
         border: {
-          $value: '{presentational.yellow.4}',
+          default: {
+            $value: '{presentational.yellow.4}',
+          },
+          muted: {
+            $value: '{presentational.yellow.3}',
+          },
+          hover: {
+            $value: '{presentational.yellow.5}',
+          },
         },
       },
+      // amber: {
+      //   background: {
+      //     muted: {
+      //       $value: '{presentational.amber.0}',
+      //     },
+      //     mutedHover: {
+      //       $value: '{presentational.amber.1}',
+      //     },
+      //     mutedPressed: {
+      //       $value: '{presentational.amber.2}',
+      //     },
+      //     solid: {
+      //       $value: '{presentational.amber.6}',
+      //     },
+      //     solidHover: {
+      //       $value: '{presentational.amber.7}',
+      //     },
+      //     solidPressed: {
+      //       $value: '{presentational.amber.8}',
+      //     },
+      //   },
+      //   text: {
+      //     $value: '{presentational.amber.9}',
+      //   },
+      //   border: {
+      //     default: {
+      //       $value: '{presentational.amber.4}',
+      //     },
+      //     muted: {
+      //       $value: '{presentational.amber.3}',
+      //     },
+      //     hover: {
+      //       $value: '{presentational.amber.5}',
+      //     },
+      //   },
+      // },
       orange: {
         background: {
-          $value: '{presentational.orange.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.orange.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.orange.2}',
+          muted: {
+            $value: '{presentational.orange.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.orange.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.orange.2}',
+          },
+          solid: {
+            $value: '{presentational.orange.6}',
+          },
+          solidHover: {
+            $value: '{presentational.orange.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.orange.8}',
+          },
         },
         text: {
-          $value: '{presentational.orange.5}',
+          $value: '{presentational.orange.9}',
         },
         border: {
-          $value: '{presentational.orange.4}',
+          default: {
+            $value: '{presentational.orange.4}',
+          },
+          muted: {
+            $value: '{presentational.orange.3}',
+          },
+          hover: {
+            $value: '{presentational.orange.5}',
+          },
         },
       },
       brown: {
         background: {
-          $value: '{presentational.brown.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.brown.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.brown.2}',
+          muted: {
+            $value: '{presentational.brown.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.brown.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.brown.2}',
+          },
+          solid: {
+            $value: '{presentational.brown.6}',
+          },
+          solidHover: {
+            $value: '{presentational.brown.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.brown.8}',
+          },
         },
         text: {
-          $value: '{presentational.brown.5}',
+          $value: '{presentational.brown.9}',
         },
         border: {
-          $value: '{presentational.brown.4}',
+          default: {
+            $value: '{presentational.brown.4}',
+          },
+          muted: {
+            $value: '{presentational.brown.3}',
+          },
+          hover: {
+            $value: '{presentational.brown.5}',
+          },
         },
       },
       aubern: {
         background: {
-          $value: '{presentational.aubern.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.aubern.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.aubern.2}',
+          muted: {
+            $value: '{presentational.aubern.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.aubern.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.aubern.2}',
+          },
+          solid: {
+            $value: '{presentational.aubern.6}',
+          },
+          solidHover: {
+            $value: '{presentational.aubern.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.aubern.8}',
+          },
         },
         text: {
-          $value: '{presentational.aubern.5}',
+          $value: '{presentational.aubern.9}',
         },
         border: {
-          $value: '{presentational.aubern.4}',
+          default: {
+            $value: '{presentational.aubern.4}',
+          },
+          muted: {
+            $value: '{presentational.aubern.3}',
+          },
+          hover: {
+            $value: '{presentational.aubern.5}',
+          },
         },
       },
       gray: {
         background: {
-          $value: '{presentational.gray.0}',
-        },
-        backgroundHover: {
-          $value: '{presentational.gray.1}',
-        },
-        backgroundPressed: {
-          $value: '{presentational.gray.2}',
+          muted: {
+            $value: '{presentational.gray.0}',
+          },
+          mutedHover: {
+            $value: '{presentational.gray.1}',
+          },
+          mutedPressed: {
+            $value: '{presentational.gray.2}',
+          },
+          solid: {
+            $value: '{presentational.gray.6}',
+          },
+          solidHover: {
+            $value: '{presentational.gray.7}',
+          },
+          solidPressed: {
+            $value: '{presentational.gray.8}',
+          },
         },
         text: {
-          $value: '{presentational.gray.5}',
+          $value: '{presentational.gray.9}',
         },
         border: {
-          $value: '{presentational.gray.4}',
+          default: {
+            $value: '{presentational.gray.4}',
+          },
+          muted: {
+            $value: '{presentational.gray.3}',
+          },
+          hover: {
+            $value: '{presentational.gray.5}',
+          },
         },
       },
     },
