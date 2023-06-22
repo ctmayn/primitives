@@ -51,25 +51,25 @@ export default {
       control: {
         type: 'select',
       },
-      options: variants,
+      options: [...variants, 'all'],
     },
   },
 }
 
-export const PresentationalColors = ({variant}) => {
+const renderKitchenSink = (variant: (typeof variants)[number], width?: number) => {
   return (
-    <Box>
-      <Pagehead>
-        <Heading sx={{fontSize: 3}}>Kitchen sink for presentational color</Heading>
-      </Pagehead>
+    <Box sx={{width: width ? `${width}px` : 'auto'}}>
       <Flash
         sx={{
           backgroundColor: `var(--presentational-ui-${variant}-background-muted)`,
           border: `1px solid var(--presentational-ui-${variant}-border-muted)`,
           color: `var(--presentational-ui-${variant}-text)`,
+          '.octicon': {
+            fill: `var(--presentational-ui-${variant}-text)`,
+          },
         }}
       >
-        <CheckIcon fill={`var(--presentational-ui-${variant}-text)`} />A flash alert
+        <CheckIcon />A flash alert
       </Flash>
       <Box sx={{marginTop: 3, display: 'flex', gap: 2, alignItems: 'center'}}>
         <Button
@@ -108,12 +108,7 @@ export const PresentationalColors = ({variant}) => {
         >
           System label
         </Label>
-        <CircleOcticon
-          icon={CheckIcon}
-          size={24}
-          sx={{bg: `var(--presentational-ui-${variant}-background-solid)`, color: 'fg.onEmphasis', padding: 1}}
-        />
-        <CircleBadge sx={{color: `var(--presentational-ui-${variant}-text)`}}>
+        <CircleBadge sx={{color: `var(--presentational-ui-${variant}-text)`}} size={60}>
           <CircleBadge.Icon icon={ZapIcon} />
         </CircleBadge>
       </Box>
@@ -124,6 +119,11 @@ export const PresentationalColors = ({variant}) => {
           inline
           sx={{width: '200px'}}
           bg={`var(--presentational-ui-${variant}-background-solid)`}
+        />
+        <CircleOcticon
+          icon={CheckIcon}
+          size={24}
+          sx={{bg: `var(--presentational-ui-${variant}-background-solid)`, color: 'fg.onEmphasis'}}
         />
       </Box>
       <ActionList>
@@ -154,6 +154,35 @@ export const PresentationalColors = ({variant}) => {
           mona
         </ActionList.Item>
       </ActionList>
+    </Box>
+  )
+}
+
+export const PresentationalColors = ({variant}) => {
+  if (variant === 'all') {
+    return (
+      <Box>
+        <Pagehead>
+          <Heading sx={{fontSize: 3}}>Kitchen sink for presentational color</Heading>
+        </Pagehead>
+        <Box
+          sx={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            gap: 3,
+          }}
+        >
+          {variants.map(variant => renderKitchenSink(variant, 400))}
+        </Box>
+      </Box>
+    )
+  }
+  return (
+    <Box>
+      <Pagehead>
+        <Heading sx={{fontSize: 3}}>Kitchen sink for presentational color</Heading>
+      </Pagehead>
+      {renderKitchenSink(variant)}
     </Box>
   )
 }
