@@ -22,11 +22,16 @@ export const buildFigma = (buildOptions: ConfigGeneratorOptions): void => {
   /** -----------------------------------
    * Create list of files
    * ----------------------------------- */
-  const dirs = fs.readdirSync(`${buildOptions.buildPath}figma`)
-  const files = dirs.flatMap(dir => {
+  const dirNames = fs
+    .readdirSync(`${buildOptions.buildPath}figma`, {withFileTypes: true})
+    .filter(dir => dir.isDirectory())
+    .map(dir => dir.name)
+
+  const files = dirNames.flatMap(dir => {
     const localFiles = fs.readdirSync(`${buildOptions.buildPath}figma/${dir}`)
     return localFiles.map(file => `${buildOptions.buildPath}figma/${dir}/${file}`)
   })
+
   fs.writeFileSync(`${buildOptions.buildPath}figma/files.json`, JSON.stringify(files, null, 2))
 }
 
